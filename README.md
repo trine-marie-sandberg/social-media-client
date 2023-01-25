@@ -1,6 +1,7 @@
 # social-media-client
 # Workflow-CA
 [![Automated E2E Testing](https://github.com/trine-marie-sandberg/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/trine-marie-sandberg/social-media-client/actions/workflows/e2e-test.yml)
+[![Automated Unit Testing](https://github.com/trine-marie-sandberg/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/trine-marie-sandberg/social-media-client/actions/workflows/unit-test.yml)
 
 netlify deploy: https://stiansto-workflow-ca.netlify.app/ <br>
 pages: https://stiansto.github.io/Workflow-CA/
