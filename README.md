@@ -22,11 +22,8 @@ frameworks:
 
 ```bash
 git clone --branch workflow https://github.com/trine-marie-sandberg/Workflow.git
-
-// [OPTIONAL] open code from terminal
-cd Workflow-CA
-code -r .
 ```
+#Or open with Github Desctop
 
 
 2. install dependencies
