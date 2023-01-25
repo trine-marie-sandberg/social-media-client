@@ -1,9 +1,5 @@
 # social-media-client
 # Workflow-CA
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f153cc30-5bb8-4dd9-ace0-821cc3a8ea63/deploy-status)](https://app.netlify.com/sites/stiansto-workflow-ca/deploys)
-[![Deploy static content to Pages](https://github.com/StianSto/Workflow-CA/actions/workflows/pages.yml/badge.svg)](https://github.com/StianSto/Workflow-CA/actions/workflows/pages.yml)
-[![Automated e2e testing](https://github.com/StianSto/Workflow-CA/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/StianSto/Workflow-CA/actions/workflows/e2e-test.yml)
-[![Automated unit testing](https://github.com/StianSto/Workflow-CA/actions/workflows/unit-test.yml/badge.svg)](https://github.com/StianSto/Workflow-CA/actions/workflows/unit-test.yml)
 
 netlify deploy: https://stiansto-workflow-ca.netlify.app/ <br>
 pages: https://stiansto.github.io/Workflow-CA/
