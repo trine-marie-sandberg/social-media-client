@@ -1,4 +1,4 @@
-import { url, email, goodboy } from "./testVariables.js";
+import { url, email, goodboy, token } from "./testVariables.js";
 
 it("The user can log out with the logout button", () => {
   cy.visit(url);
@@ -12,5 +12,8 @@ it("The user can log out with the logout button", () => {
   cy.wait(2000);
   cy.get(`button[type="button"][data-visible="loggedIn"]`)
     .contains("Logout")
-    .click();
+    .click()
+    .then(() => {
+      expect(localStorage.getItem("token").toLocaleLowerCase.to.not.exist);
+    });
 });
