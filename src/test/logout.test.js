@@ -1,8 +1,5 @@
 import { logout } from "../js/api/auth/logout";
-
-const validEmail = "simba@noroff.no";
-const validPassword = "goodBoy3";
-const token = "testToken";
+import { validEmail, goodboy, token } from "./test-variables";
 
 export default class LocalStorageMock {
   constructor() {
@@ -29,7 +26,7 @@ export default class LocalStorageMock {
 global.localStorage = new LocalStorageMock();
 const testProfile = JSON.stringify({
   email: validEmail,
-  password: validPassword,
+  password: goodboy,
 });
 
 describe("logout", () => {

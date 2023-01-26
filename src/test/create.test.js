@@ -1,15 +1,5 @@
 import { createPost } from "../js/api/posts/create";
-
-const title = "title";
-const body = "test body";
-const media = "https://images.pexels.com/";
-const tags = "tag";
-const post = {
-  title: title,
-  body: body,
-  media: media,
-  tags: tags,
-};
+import { title, body, media, tags, post } from "./test-variables.js";
 
 function PostMockSuccess() {
   return Promise.resolve({

@@ -1,13 +1,5 @@
 import { login } from "../js/api/auth/login";
-
-const validEmail = "simba@noroff.no";
-const validPassword = "goodBoy3";
-const token = "testToken";
-const testProfile = {
-  email: validEmail,
-  password: validPassword,
-  token: token,
-};
+import { validEmail, goodBoy, testProfile } from "./test-variables";
 
 export default class LocalStorageMock {
   constructor() {
@@ -45,7 +37,7 @@ function fetchMockSuccess() {
 describe("login", () => {
   it("stores a token when provided with valid credentials", async () => {
     global.fetch = jest.fn(() => fetchMockSuccess());
-    const result = await login(validEmail, validPassword);
+    const result = await login(validEmail, goodBoy);
     expect(result).toEqual(testProfile);
     //expect(JSON.parse(global.localStorage.getItem("token"))).toEqual(token);
   });
