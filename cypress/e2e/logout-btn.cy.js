@@ -14,6 +14,6 @@ it("The user can log out with the logout button", () => {
     .contains("Logout")
     .click()
     .then(() => {
-      expect(localStorage.getItem("token").toLocaleLowerCase.to.not.exist);
+      expect(localStorage.getItem("token")).to.not.exist;
     });
 });
