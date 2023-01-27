@@ -39,6 +39,6 @@ describe("login", () => {
     global.fetch = jest.fn(() => fetchMockSuccess());
     const result = await login(validEmail, goodBoy);
     expect(result).toEqual(testProfile);
-    //expect(JSON.parse(global.localStorage.getItem("token"))).toEqual(token);
+    expect(localStorage.token).toEqual(token)
   });
 });
