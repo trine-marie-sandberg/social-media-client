@@ -18,5 +18,6 @@ describe("create", () => {
     expect(result.body).toEqual(body);
     expect(result.media).toEqual(media);
     expect(result.tags).toEqual(tags);
+    expect(fetch).toHaveBeenCalledTimes(1);
   });
 });
